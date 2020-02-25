@@ -6,7 +6,7 @@ body, html{
 /* the hero image */
 .hero-image{
 	/* hero image used as background*/
-background-color: black;	/* set a specific height for hald hero use 50% for full use 100% */
+background-image: url("..//BMWM6.jpg");	/* set a specific height for hald hero use 50% for full use 100% */
 	height: 100%;
 	/* positioning and centering the image to scale nicely on all screens */
 	background-position: center;
