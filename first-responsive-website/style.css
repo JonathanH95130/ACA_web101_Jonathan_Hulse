@@ -7,14 +7,101 @@
 
 #container-bottom{
     background-color: black;
+    color: white;
     width: 1024px;
     height: 387px;
     margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+    
 }
 
-h1{
+.welcome{
     padding: 170px;
     text-align: center;
     color: whitesmoke;
     font-size: 50px;
 }
+
+.line{
+    height: 50px;
+    width: 250px;
+}
+
+.left{
+    border: 1px black;
+    background-color: blue;
+}
+
+.middle{
+    border: 1px black;
+    background-color: orange;
+}
+
+.right{
+    border: 1px black;
+    background-color: aqua;
+}
+
+.left-title{
+    display: flex;
+    justify-content: space-around;
+}
+
+.middle-title{
+    display: flex;
+    justify-content: space-around;
+}
+
+.right-title{
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-p{
+    display: flex;
+    justify-content: space-around;
+}
+
+.middle-p{
+    display: flex;
+    justify-content: space-around;
+}
+
+.right-p{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 1024px) { 
+    #container-top{
+        background-color: lightblue;
+        height: 300px;
+        width: 500px;
+        
+    }
+    #container-bottom{
+        background-color:lightgray;
+        height: 900px;
+        width: 500px;
+        flex-direction: column;
+        color: black;
+    }
+    .welcome{
+        padding: none;
+        font-size: 110%;
+        
+    }
+    .right{
+        background-color: lightblue; 
+     }
+     
+     .middle{
+         background-color: orange;
+     }
+     
+     .left{
+            background-color: aqua;
+         }
+ }
