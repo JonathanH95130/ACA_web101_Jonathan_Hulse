@@ -34,7 +34,7 @@ P{
 	color: #FFFDE7;
 }
 /* styling the hero button */
-.hero-text button{
+.hero-text a{
 	font-family: "Open Sans";
 	font-size: 1.1em;
 	border: 2px solid rg#FFFDE7ba(254, 209, 54, 0.7);
@@ -48,7 +48,7 @@ P{
 	border-radius: 0 10px 0 10px;
 }
 
-.hero-text button:hover{
+.hero-text a:hover{
 	transition: 0.6s;
 	background-color: rgba(254, 209, 54, 0.7);
 }

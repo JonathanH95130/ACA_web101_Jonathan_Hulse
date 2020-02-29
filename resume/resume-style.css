@@ -1,0 +1,74 @@
+.container{
+    background-color: #e6e8f0;
+    display: grid;
+    height: 120vh;
+    width: 75%;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 40% 60%;
+    grid-template-areas:
+    "image name"
+    "contact name"
+}
+
+.image{
+    grid-area: image;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url("picture.jpg");
+    height: 60vh;
+}
+
+.contact{
+    grid-area: contact;
+    height: 91%;
+    background-color: #2042d6;
+}
+
+.name{
+    grid-area: name;
+    height: 120vh;
+}
+
+hr{border: #2042d6 3px solid;
+margin: 35px;
+}
+
+.personal{
+    display: flex;
+    justify-content: space-between;
+}
+
+.work{
+    display: flex;
+    justify-content: space-between;
+}
+
+.academic{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact{
+    color: #e6e8f0;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    justify-content: space-around;
+}
+
+.header{
+color: #2042d6;
+margin-left: 120px;
+}
+
+#bottom{
+    color: #2042d6;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.right-list{
+    padding-right: 50px;
+}
+
+
