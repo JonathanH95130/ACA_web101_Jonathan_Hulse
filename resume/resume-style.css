@@ -18,6 +18,10 @@
     height: 60vh;
 }
 
+.image:hover{
+    background-image: none;
+}
+
 .contact{
     grid-area: contact;
     height: 91%;
@@ -69,6 +73,10 @@ margin-left: 120px;
 
 .right-list{
     padding-right: 50px;
+}
+
+#phone-number{
+    visibility:hidden
 }
 
 

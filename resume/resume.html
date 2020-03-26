@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="resume-style.css">
+    <script src="resume-interactive.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
     <div class="container">
-        <div class="image"></div>
+        <div class="image">
+        </div>
         <div class="name">
             <div class="header">
-                <h1>Jonathan Hulse</h1>
+                <h1 id="my-name" onclick="nameFadeIN()">Jonathan Hulse</h1>
                 <p>Web Developer</p>
+                <p onclick="phoneNumberHide()">Phone:</p>
+                <p id="phone-number">832-375-3747</p>
             </div>
             <hr>
         <div id="bottom">
