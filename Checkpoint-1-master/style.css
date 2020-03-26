@@ -86,21 +86,24 @@
 }
 
 #middle-text{
-    margin-top: -500px;
+    margin-top: -700px;
     margin-left: 50%;
-    background-color: white;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 180px;
 }
 
 .h2-styles-image{
-    display:flex;
+    text-align: center;
 }
 
 #styles{
     display: flex;
     flex-direction: row;
     width: 100%;
-    /* justify-content: space-between; */
-    margin-top: -500px;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    margin-bottom: 25px;
     
     
 
@@ -109,10 +112,15 @@
 .styles-box-images{
     display: flex;
     flex-direction: column;
-    /* justify-content: space-evenly; */
-    width: auto;
-    height: auto;
-    transform: scale(0.2, 0.2);
+    justify-content: space-evenly;
+    width: 25%;
+    height: 100%;
+    /* transform: scale(0.2, 0.2); */
+}
+
+.styles-image{
+    width: 100%;
+    height: 50%;
 }
 
 .styles-box-images:hover{
@@ -295,7 +303,7 @@ justify-content: center;
 
   .card{
       display: flex;
-      justify-content: start;
+      flex-direction: column;
       border: 2px solid black;
       margin-top: 20px;
       margin-bottom: 20px;
@@ -313,7 +321,8 @@ justify-content: center;
     background-color:black;
     border-radius: 0px;
     height: 30px;
-    width: 120px; 
+    width: 120px;
+    margin-bottom: 20px; 
 }
 
 .blog-button:hover{
@@ -375,9 +384,9 @@ justify-content: center;
     margin: 0px;
 }
 
-/* .contact-send-button:hover{
+.contact-send-button:hover{
     background-color: #c9261a;
-} */
+}
 
 .contact-form:focus{
     outline: none;
