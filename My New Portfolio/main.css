@@ -1,0 +1,293 @@
+@font-face {
+    font-family: 'Badaboom-BB';
+    src: url('fonts/BADABB__.TTF');
+  }
+
+  /* @font-face {
+    font-family: 'BalooThambi2-Regular';
+    src: url('fonts/BalooThambi2-Regular.ttf');
+  } */
+
+  body {
+    font-family: 'Baloo 2', cursive;
+  }
+
+  .header-logo-text{
+    font-size: 40px;
+    margin-left: 50px;
+    margin-top: 18px;
+    padding-left: 25px;
+    color: #6c63ff;
+    font-family: 'Baloo 2', cursive;
+  }
+
+  .header-logo-text:hover{
+    color: black;
+  }
+
+  ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+  }
+
+  a{
+    text-decoration: none;
+    color: #6c63ff;
+  }
+
+  nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .nav-list{
+    margin-right: 18%;
+  }
+
+  .nav-links{
+    margin-right: 10%;
+    font-size: 28px;
+  }
+
+  .nav-links:hover{
+    color: black;
+  }
+
+  
+  /* Top Container */
+
+  .main-top-container{
+    display: flex;
+    margin-right: 0;
+
+  }
+
+  /* Top Left Container */
+
+  .main-left-container{
+    margin-left: 100px;
+  }
+
+  .h1-left-container{
+    font-size: 70px;
+    font-family: 'Baloo 2', cursive;
+  }
+
+  .p-left-container{
+    font-size: 40px;
+    font-family: 'Baloo 2', cursive;
+  }
+
+  .left-buttons{
+    padding-left: 0px;
+    margin-bottom: 40px;
+  }
+
+  .left-container-buttons{
+    background-color: #6c63ff;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    font-family: 'Baloo 2', cursive;
+  }
+
+  .left-container-buttons:hover{
+    background-color: black;
+  }
+
+  .social-media-icons{
+    display: flex;
+    width: 31px;
+    height: 32px;
+  }
+
+  .social-icons{
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  
+  .social-icons:hover{
+    color: black;
+  }
+
+  .git{
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .git:hover{
+    color: black;
+  }
+
+  .linkedin{
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .linkedin:hover{
+    color: black;
+  }
+
+  .facebook{
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .facebook:hover{
+    color: black;
+  }
+
+  .instagram{
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .instagram:hover{
+    color: black;
+  }
+
+  .snapchat{
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .snapchat:hover{
+    color: black;
+  }
+
+  /* .social-icon-background{
+  height: 25px;
+  width: 25px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  } */
+
+  
+
+  .hand-emoji{
+    margin-left: 20px;
+    animation-name: wave-animation;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+  }
+
+  @keyframes wave-animation {
+    0% { transform: rotate(  0.0deg) }
+   10% { transform: rotate(-10.0deg) }
+   20% { transform: rotate( 12.0deg) }
+   30% { transform: rotate(-10.0deg) }
+   40% { transform: rotate(  9.0deg) }
+   50% { transform: rotate(  0.0deg) }
+  100% { transform: rotate(  0.0deg) }
+}
+
+  /* Top Right Container */
+
+.top-right-image{
+  width:500px;
+  height:500px;
+  margin-top: 28px;
+}
+
+.main-right-container{
+margin-left: 200px;
+overflow: hidden;
+}
+
+/* Second Left Container */
+
+.second-main-container{
+  display: flex;
+}
+
+.second-left-container{
+  margin-left: 10px;
+  margin-right: 50px;
+}
+
+.second-left-image{
+  margin-top: 100px;
+  width: 800px;
+  height: 400px;
+}
+
+/* Second Right Container */
+
+.second-right-container{
+  margin-left: 50px;
+  margin-top: 95px;
+}
+
+.h1-right{
+  font-size: 40px;
+}
+
+.horns-emoji{
+  margin-right: 8px;
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% { transform: rotate(  0.0deg) }
+ 10% { transform: rotate(-10.0deg) }
+ 20% { transform: rotate( 12.0deg) }
+ 30% { transform: rotate(-10.0deg) }
+ 40% { transform: rotate(  9.0deg) }
+ 50% { transform: rotate(  0.0deg) }
+100% { transform: rotate(  0.0deg) }
+}
+
+.pointer-emoji{
+font-size: 20px;
+}
+
+.h1-right{
+  font-size: 45px;
+}
+
+.p-right{
+  font-size: 20px;
+}
+
+.lightning-text{
+  font-size: 17px;
+}
+
+.software-icons{
+  display: flex;
+  color: #6c63ff;
+  padding: 0px;
+}
+
+.html-icon{
+  color: #6c63ff;
+}
+
+/* .software-icons:hover{
+  background-color: black;
+} */
+
+
+
+
+
+
