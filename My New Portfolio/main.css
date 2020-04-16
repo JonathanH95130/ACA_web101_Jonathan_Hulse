@@ -3,6 +3,10 @@
     src: url('fonts/BADABB__.TTF');
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   /* @font-face {
     font-family: 'BalooThambi2-Regular';
     src: url('fonts/BalooThambi2-Regular.ttf');
@@ -17,7 +21,7 @@
     margin-left: 50px;
     margin-top: 18px;
     padding-left: 25px;
-    color: #6c63ff;
+    color: black;
     font-family: 'Baloo 2', cursive;
   }
 
@@ -63,7 +67,21 @@
   .main-top-container{
     display: flex;
     margin-right: 0;
+  }
 
+  /* .right-social-box-triangle{
+    height: 100px;
+    width: 100px;
+    margin-left: 1500px;
+    background-color: black;
+  } */
+
+  .left-social-box-triangle{
+    height: 100px;
+    width: 100px;
+    margin-top: -190px;
+    margin-left: -20px;
+    background-color: black;
   }
 
   /* Top Left Container */
@@ -73,11 +91,13 @@
   }
 
   .h1-left-container{
+    margin-left: -50px;
     font-size: 70px;
     font-family: 'Baloo 2', cursive;
   }
 
   .p-left-container{
+    margin-left: -50px;
     font-size: 40px;
     font-family: 'Baloo 2', cursive;
   }
@@ -101,6 +121,7 @@
   }
 
   .social-media-icons{
+    margin-left: -50px;
     display: flex;
     width: 31px;
     height: 32px;
@@ -220,7 +241,7 @@ overflow: hidden;
 }
 
 .second-left-image{
-  margin-top: 100px;
+  margin-top: 250px;
   width: 800px;
   height: 400px;
 }
@@ -234,6 +255,7 @@ overflow: hidden;
 
 .h1-right{
   font-size: 40px;
+  margin-top: 250px;
 }
 
 .horns-emoji{
@@ -265,6 +287,7 @@ font-size: 20px;
 
 .p-right{
   font-size: 20px;
+  margin-top: 70px;
 }
 
 .lightning-text{
@@ -281,6 +304,35 @@ font-size: 20px;
   color: #6c63ff;
 }
 
+/* Third Right Container */
+
+.third-main-container{
+  display: flex;
+  margin-top: 250px;
+}
+
+.third-right-container{
+  margin-left: 50px;
+}
+
+.third-right-image{
+  height: 300px;
+  width: 700px;
+}
+
+.about-me{
+  font-size: 45px;
+}
+
+.first-row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.second-row{
+  display:flex;
+  justify-content:center;
+}
 
 
 
