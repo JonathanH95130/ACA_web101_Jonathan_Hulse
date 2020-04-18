@@ -7,6 +7,11 @@
     scroll-behavior: smooth;
   }
 
+  /* *{
+    margin: 0px;
+    padding: 0px;
+  } */
+
   /* @font-face {
     font-family: 'BalooThambi2-Regular';
     src: url('fonts/BalooThambi2-Regular.ttf');
@@ -14,6 +19,7 @@
 
   body {
     font-family: 'Baloo 2', cursive;
+    background-color: rgba(230, 230, 230, 0.993);
   }
 
   .header-logo-text{
@@ -37,7 +43,7 @@
 
   a{
     text-decoration: none;
-    color: #6c63ff;
+    color: #535361;
   }
 
   nav{
@@ -55,9 +61,6 @@
     font-size: 28px;
   }
 
-  .nav-list:hover{
-    color: black;
-  }
 
 
 
@@ -70,19 +73,29 @@
   }
 
   /* .right-social-box-triangle{
-    height: 100px;
-    width: 100px;
-    margin-left: 1500px;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: -75px;
+    right: -75px;
+    transform: rotate(45deg);
     background-color: black;
   } */
 
-  .left-social-box-triangle{
-    height: 100px;
-    width: 100px;
-    margin-top: -190px;
-    margin-left: -20px;
+  /* .left-social-box-triangle{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: -75px;
+    left: -75px;
+    transform: rotate(45deg);
     background-color: black;
-  }
+  } */
+
+  /* .fab{
+    margin-top: -100px;
+    color: white;
+  } */
 
   /* Top Left Container */
 
@@ -91,13 +104,11 @@
   }
 
   .h1-left-container{
-    margin-left: -50px;
     font-size: 70px;
     font-family: 'Baloo 2', cursive;
   }
 
   .p-left-container{
-    margin-left: -50px;
     font-size: 40px;
     font-family: 'Baloo 2', cursive;
   }
@@ -109,7 +120,7 @@
   }
 
   .left-container-buttons{
-    background-color: #6c63ff;
+    background-color: #535361;
     color: white;
     padding: 8px;
     border-radius: 5px;
@@ -131,7 +142,7 @@
     height: 25px;
     display: inline-block;
     margin-right: 5px;
-    margin-left: 5px;
+    /* margin-left: 5px; */
   }
   
   .social-icons:hover{
@@ -233,6 +244,7 @@ overflow: hidden;
 
 .second-main-container{
   display: flex;
+  margin-top: 50px;
 }
 
 .second-left-container{
@@ -249,8 +261,8 @@ overflow: hidden;
 /* Second Right Container */
 
 .second-right-container{
-  margin-left: 50px;
-  margin-top: 95px;
+  margin-left: 35px;
+  margin-top: 35px;
 }
 
 .h1-right{
@@ -309,11 +321,26 @@ font-size: 20px;
 .third-main-container{
   display: flex;
   margin-top: 250px;
+  margin-bottom: 100px;
 }
 
 .third-right-container{
+  height: 700px;
+  width: 760px;
+}
+
+.first-row{
+  display: flex;
+  flex-direction: column;
   margin-left: 50px;
 }
+
+.second-row{
+  display:flex;
+  justify-content:center;
+}
+
+/* Third Left Container */
 
 .third-right-image{
   height: 300px;
@@ -324,17 +351,67 @@ font-size: 20px;
   font-size: 45px;
 }
 
-.first-row{
+
+/* Fourth Main Container */
+
+.cards-container{
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  /* margin-top: 250px; */
 }
 
-.second-row{
-  display:flex;
-  justify-content:center;
+.fourth-main-cards{
+  height: 200px;
+  width: 500px;
+  margin: 10px;
+  box-shadow: 8px 8px 6px rgb(167, 162, 162);
+  background-color: white;
+  border-radius: 5px;
 }
 
+.card-row{
+  display: flex;
 
+}
 
+.circle{
+  height: 11px;
+  width: 11px;
+  background-color: orange;
+  border-radius: 50%;
+}
 
+.bottom-card-details{
+  display: flex;
+}
+
+.card-one-header-text{
+  
+}
+
+/* Fifth Container */
+
+.fifth-container{
+margin-top: 250px;
+margin-bottom: 150px;
+}
+
+.map-row{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Footer */
+
+.footer-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.footer-icons{
+  display: flex;
+}
 
