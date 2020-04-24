@@ -42,6 +42,10 @@
 
   a{
     text-decoration: none;
+    color: black;
+  }
+
+  .a:hover{
     color: #39437a;
   }
 
@@ -99,6 +103,7 @@
   /* Top Left Container */
 
   .main-left-container{
+    margin-bottom: 50px;
     margin-left: 100px;
   }
 
@@ -119,7 +124,7 @@
   }
 
   .left-container-buttons{
-    background-color: #39437a;
+    background-color: black;
     color: white;
     padding: 8px;
     border-radius: 5px;
@@ -127,7 +132,7 @@
   }
 
   .left-container-buttons:hover{
-    background-color: black;
+    background-color: #39437a;
   }
 
   .social-media-icons{
@@ -416,15 +421,7 @@ font-size: 20px;
 
 /* Fifth Container */
 
-.fifth-container{
-margin-top: 250px;
-margin-bottom: 150px;
-}
 
-.map-row{
-  display: flex;
-  justify-content: space-evenly;
-}
 
 /* Footer */
 
@@ -443,4 +440,15 @@ margin-bottom: 150px;
   margin-left: 5px;
   color: black;
 }
+
+/* Responsive */
+
+/* Smartphones (portrait and landscape) ----------- */
+/* @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  } */
 
