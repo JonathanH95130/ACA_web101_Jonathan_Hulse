@@ -3,7 +3,7 @@
     src: url('fonts/BADABB__.TTF');
   }
 
-  html{
+  html , body {
     margin:0;
     padding:0;
     width:100%;
@@ -335,8 +335,8 @@ font-size: 20px;
 }
 
 .third-right-container{
-  height: 700px;
-  width: 760px;
+  /* height: 700px;
+  width: 760px; */
 }
 
 .first-row{
@@ -430,7 +430,7 @@ font-size: 20px;
 
 /* Footer */
 
-.footer-box{
+.footer-text{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -462,9 +462,46 @@ font-size: 20px;
   .nav-links{
     font-size: 10px;
   }
-    }
-  
-
+  .top-right-image{
+    display: none;
+  }
+  .second-left-image{
+    display: none;
+  }
+  .third-main-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 250px;
+    margin-left: 50px;
+  }
+  .third-right-image{
+    height: 200px;
+    width: 200px;
+    /* margin-left: -200px; */
+    margin-right: 100px;
+  }
+  .spotify{
+    height: 400px;
+    width: 300px;
+  }
+  .card-row{
+    display: flex;
+    flex-direction: column;
+  }
+  .fifth-container-images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-p{
+    width: 50%;
+  }
+}
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 nav{
